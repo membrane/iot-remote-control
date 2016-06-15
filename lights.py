@@ -3,9 +3,9 @@ import socket
 import paho.mqtt.client as mqtt
 
 code_dict = {	"lights/kitchen": 	{"on": "000000000001000101010001", "off": "000000000001000101010100"},
-				"lights/oliver":	{"on": "000000000000010101010001", "off": "000000000000010101010100"},
+				"lights/room-middle":	{"on": "000000000000010101010001", "off": "000000000000010101010100"},
 				"lights/thomas":	{"on": "000000000001010001010001", "off": "000000000001010001010100"},
-				"lights/tobias":	{"on": "000000000001010100010001", "off": "000000000001010100010100"}
+				"lights/room-left":	{"on": "000000000001010100010001", "off": "000000000001010100010100"}
 			}
 
 # The callback for when the client receives a CONNACK response from the server.
